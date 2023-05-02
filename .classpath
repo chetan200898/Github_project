@@ -5,6 +5,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="github/libray/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/github/libray"/>
+	<classpathentry kind="lib" path="src/github/libray/selenium-server-4.9.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
